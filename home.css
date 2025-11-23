@@ -263,57 +263,21 @@ h1 {
     background-size: cover;
 }
 
-#no {
-    background-image: url(https://ik.imagekit.io/darshilxrajawat/no.jpg?updatedAt=1762968561879);
+#sp2 {
+    background-image: url(https://cdn.marvel.com/u/prod/marvel/i/mg/9/80/645577dc06dca/clean.jpg);
     background-size: cover;
 }
 
-#pre {
-    background-image: url(https://ik.imagekit.io/darshilxrajawat/pre.jpg?updatedAt=1762968560637);
+#ff {
+    background-image: url(https://ik.imagekit.io/jgx3gvfen/clean.jpg);
     background-size: cover;
 }
 
-#apo {
-    background-image: url(https://ik.imagekit.io/darshilxrajawat/apo.jpg?updatedAt=1762968559007);
+#god {
+    background-image: url(https://ik.imagekit.io/jgx3gvfen/clean-2.jpg);
     background-size: cover;
 }
 
-#asp {
-    background-image: url(https://ik.imagekit.io/darshilxrajawat/asm.jpg?updatedAt=1762968562393);
-    background-size: cover;
-}
-
-#st {
-    background-image: url(https://ik.imagekit.io/darshilxrajawat/st.jpg?updatedAt=1762968562557);
-    background-size: cover;
-}
-
-#mk {
-    background-image: url(https://ik.imagekit.io/darshilxrajawat/mk.jpg?updatedAt=1762968559835);
-    background-size: cover;
-}
-
-#mm {
-    background-image: url(https://ik.imagekit.io/darshilxrajawat/mm.jpg?updatedAt=1762968562564);
-    background-size: cover;
-}
-
-#ca {
-    background-image: url(https://ik.imagekit.io/darshilxrajawat/ca.jpg?updatedAt=1762968562058);
-    background-size: cover;
-}
-
-#vt {
-    background-image: url(https://ik.imagekit.io/darshilxrajawat/vt.jpg?updatedAt=1762968561983);
-    background-size: cover;
-}
-
-#mx {
-    background-image: url(https://ik.imagekit.io/darshilxrajawat/mx.jpg?updatedAt=1762968561808);
-    background-size: cover;
-}
-
-/* Detail Page Styles */
 #content {
     padding: 120px 60px 60px 60px;
 }
@@ -489,68 +453,34 @@ h1 {
     background-position: center;
 }
 
-#fnsp2-poster {
-    background-image: url(fnsp2.jpg);
+#sp2-poster {
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px 5px white;
+    background-image: url(https://cdn.marvel.com/u/prod/marvel/i/mg/9/80/645577dc06dca/clean.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-#dba2-poster {
-    background-image: url(dba2.jpg);
+#ff-poster {
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px 5px white;
+    background-image: url(https://ik.imagekit.io/jgx3gvfen/clean.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-#xm-poster {
-    background-image: url(xm.jpg);
-}
-
-#wm-poster {
-    background-image: url(wm.jpg);
-}
-
-#vq-poster {
-    background-image: url(vq.jpg);
-}
-
-#no-poster {
-    background-image: url(no.jpg);
-}
-
-#pre-poster {
-    background-image: url(pre.jpg);
-}
-
-#apo-poster {
-    background-image: url(apo.jpg);
-}
-
-#asp-poster {
-    background-image: url(asm.jpg);
-}
-
-#st-poster {
-    background-image: url(st.jpg);
-}
-
-#mk-poster {
-    background-image: url(mk.jpg);
-}
-
-#mm-poster {
-    background-image: url(mm.jpg);
-}
-
-#ca-poster {
-    background-image: url(ca.jpg);
-}
-
-#vt-poster {
-    background-image: url(vt.jpg);
-}
-
-#mx-poster {
-    background-image: url(mx.jpg);
-}
-
-#details-section {
-    flex: 1;
+#god-poster {
+    width: 400px;
+    height: 600px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px 5px white;
+    background-image: url(https://ik.imagekit.io/jgx3gvfen/clean-2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .info-box {
@@ -596,7 +526,7 @@ h1 {
 
 #watch-button {
     display: inline-block;
-    background-color: #ff000080;
+    background-color: #FFFFFF1A;
     box-shadow: 0px 0px 15px 5px rgb(245, 245, 245);
     border-radius: 35px;
     padding: 10px;
@@ -617,7 +547,6 @@ h1 {
     color: white;
 }
 
-/* Responsive Design */
 @media (max-width: 1200px) {
     #movie-info {
         flex-direction: column;
@@ -664,5 +593,52 @@ h1 {
     #watch-button-inner {
         font-size: 24px;
         padding: 15px 40px;
+    }
+}
+
+#pdf-viewer-section {
+    margin-top: 60px;
+}
+
+#pdf-container {
+    background-color: #FFFFFF1A;
+    box-shadow: 0px 0px 10px 5px rgb(245, 245, 245);
+    border-radius: 25px;
+    padding: 30px;
+}
+
+#pdf-container-inner {
+    background-color: #ff000000;
+    box-shadow: 0px 0px 10px 5px rgb(255, 0, 0);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#pdf-container-inner h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px rgb(255, 0, 0);
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#pdf-viewer {
+    width: 100%;
+    height: 800px;
+    border-radius: 15px;
+    border: none;
+    background-color: #1a1a1a;
+}
+
+@media (max-width: 768px) {
+    #pdf-viewer {
+        height: 500px;
+    }
+
+    .comic-poster {
+        width: 280px;
+        height: 420px;
     }
 }
